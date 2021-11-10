@@ -1,0 +1,10 @@
+name: Explodium
+version: 1.0
+author: Romdu57
+main: fr.explodium.Explodium
+commands:
+  spawn:
+    description: Aller au spawn
+  explo:
+    description: Reload le fichier de config
+    permission: explo.reload

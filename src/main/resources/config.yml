@@ -1,0 +1,16 @@
+# nom de la maps
+
+# normal
+# noel
+# halloween
+
+themes: "halloween"
+
+# position du spawn (maps noel)
+locNoel: "5.500149948202306, 6.0, 3.319607719417454, noel, -169.9, 4.9"
+
+# maps halloween
+locHalloween: "5.500149948202306, 6.0, 3.319607719417454, world, -169.9, 4.9"
+
+# maps normal
+locNormal: "5.500149948202306, 6.0, 3.319607719417454, normal, -169.9, 4.9"
