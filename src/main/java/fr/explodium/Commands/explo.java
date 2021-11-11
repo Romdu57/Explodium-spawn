@@ -33,7 +33,7 @@ public class explo implements CommandExecutor {
         } else if (cmd.getName().equalsIgnoreCase("explo")) {
             if (args.length != 0 && args[0].equalsIgnoreCase("reload")) {
                 explodium.reloadConfig();
-                System.out.println("Le plugins à été reload");
+                System.out.println("Le plugins a ete reload");
             } else {
                 System.out.println("/explo reload");
             }
