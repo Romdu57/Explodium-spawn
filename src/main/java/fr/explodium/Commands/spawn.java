@@ -2,6 +2,7 @@ package fr.explodium.Commands;
 
 import fr.explodium.Explodium;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -21,15 +22,15 @@ public class spawn implements CommandExecutor {
             Player player = (Player) sender;
             if (this.explodium.getConfig().getString("themes").equals("noel")) {
                 player.teleport(parseStringToLoc(this.explodium.getConfig().getString("locNoel")));
-                player.sendMessage("§6Téléportation au spawn...");
-                //dans ton config, ton locNoel il faut que sa soit commme sa: x,y,z,,worldName,pitch,yaw
+                player.sendMessage(ChatColor.GOLD+"Téléportation au spawn...");
+                //dans config : x,y,z,,worldName,pitch,yaw
             } else if (this.explodium.getConfig().getString("themes").equals("halloween")) {
                 player.teleport(parseStringToLoc(this.explodium.getConfig().getString("locHalloween")));
-                player.sendMessage("§6Téléportation au spawn...");
+                player.sendMessage(ChatColor.GOLD+"Téléportation au spawn...");
                 //dans ton config, ton locNoel il faut que sa soit commme sa: x,y,z,,worldName,pitch,yaw
             } else if (this.explodium.getConfig().getString("themes").equals("normal")) {
                 player.teleport(parseStringToLoc(this.explodium.getConfig().getString("locNormal")));
-                player.sendMessage("§6Téléportation au spawn...");
+                player.sendMessage(ChatColor.GOLD+"Téléportation au spawn...");
                 //dans ton config, ton locNoel il faut que sa soit commme sa: x,y,z,,worldName,pitch,yaw
 
             }
